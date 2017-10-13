@@ -2,7 +2,12 @@ body{
     background-color:#d1cbbe;
 }
 
+h1{
+  font-family: 'Modak', cursive;
+}
+
 .jumbotron{
+  font-family: 'Source Sans Pro', sans-serif;
     background-color:#d1cbbe !important;
 }
 ul {
@@ -10,7 +15,7 @@ ul {
     padding-left: 0px;
     list-style: none;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 

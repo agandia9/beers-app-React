@@ -6,7 +6,7 @@ class BeerInfo extends Component{
 	}
 
 	render(){
-		let labelIcon = this.props.beerInfo.labels ? this.props.beerInfo.labels.icon : 'http://via.placeholder.com/150x150'
+		let labelIcon = this.props.beerInfo.labels ? this.props.beerInfo.labels.medium : 'http://via.placeholder.com/150x150'
 		return<div className='row infoBeer'>
 		<div className=' col-xs-8 col-sm-8 col-md-8'>
 			<h2>{this.props.beerInfo.name}</h2>
