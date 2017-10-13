@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const beersApi =  {
+const BeersApi =  {
 	baseUrl: 'https://quiet-inlet-67115.herokuapp.com/api',
 
 	searchBeers: function (query) {
@@ -13,5 +13,5 @@ const beersApi =  {
 	}
 }
 
-export default beersApi
+export default BeersApi
 
